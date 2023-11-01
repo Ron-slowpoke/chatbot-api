@@ -37,12 +37,12 @@ public class ApiTest {
     public void answer() throws IOException {
     CloseableHttpClient httpClient = HttpClientBuilder.create().build();
     //处理post请求
-    HttpPost post=new HttpPost("https://api.zsxq.com/v2/topics/211222848252811/answer");
+    HttpPost post=new HttpPost("https://api.zsxq.com/v2/topics/411555822541128/answer");
     post.addHeader("cookie","zsxq_access_token=6D9F81D7-6268-332D-87BF-1405B79B1C11_8DD6016ECE2DEEAD; abtest_env=product; zsxqsessionid=e1ee09e90bcbb439dd4baa28ab68d8ab; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2218b84ca4f4812a7-0eaf295e0ad0df8-745d5777-1821369-18b84ca4f491adb%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThiODRjYTRmNDgxMmE3LTBlYWYyOTVlMGFkMGRmOC03NDVkNTc3Ny0xODIxMzY5LTE4Yjg0Y2E0ZjQ5MWFkYiJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%2218b84ca4f4812a7-0eaf295e0ad0df8-745d5777-1821369-18b84ca4f491adb%22%7D; sajssdk_2015_cross_new_user=1");
     post.addHeader("Content_Type","application/json, text/plain, */*");
     String paramJson="{\n" +
             "  \"req_data\": {\n" +
-            "    \"text\": \"买枪神\\n\",\n" +
+            "    \"text\": \"看你是汪汪还是喵喵\\n\",\n" +
             "    \"image_ids\": []\n" +
             "  }\n" +
             "}";

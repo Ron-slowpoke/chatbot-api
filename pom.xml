@@ -86,6 +86,15 @@
                 <artifactId>hutool-all</artifactId>
                 <version>5.8.10</version>
             </dependency>
+
+
+<!--            可能报错-->
+            <dependency>
+                <groupId>cn.zzh.ai</groupId>
+                <artifactId>chatbot-api-interfaces</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
